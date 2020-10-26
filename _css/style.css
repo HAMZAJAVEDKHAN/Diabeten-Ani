@@ -99,8 +99,9 @@ a {
 }
 
 .primary-light-btn {
-    padding: 1em 2.4em;
+    padding: 0.6em 2.8em;
     font-size: 0.7rem;
+    border: 2px solid var(--pri);
     background-color: var(--txt);
     border: none;
     border-radius: 0.5em;
@@ -110,15 +111,14 @@ a {
 }
 
 .primary-light-btn:hover {
-    padding: 1em 2.4em;
+    padding: 0.6em 2.8em;
     font-size: 0.7rem;
     background-color: var(--pri);
     border: 2px solid var(--txt);
     border-radius: 0.5em;
-    font-weight: 900;
+    /* font-weight: 900; */
     color: var(--txt);
     transition: 0.2s ease-out;
-    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -157,7 +157,14 @@ a {
 .paragraph {
     padding-top: 0em;
     padding-bottom: 2em;
-    font-size: 14px;
+    font-size: 14   px;
+}
+.paragraph1 {
+    padding-top: 0em;
+    padding-bottom: 2em;
+    line-height: 20px;
+    font-size: 12px;
+    width: 90%;
 }
 
 #light-txt {
@@ -327,10 +334,12 @@ a {
 
 .about-img {
     margin-right: 5%;
+    display: flexbox;
 }
 
 #about-bdg {
     height: 500px;
+margin-top: 120px;
     width: auto;
 }
 
